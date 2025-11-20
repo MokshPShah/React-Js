@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './Counter.css'
 
 const Counter = () => {
   const [counter, setCounter] = useState(0)
@@ -13,12 +14,19 @@ const Counter = () => {
   }, [])
 
   return (
-    <>
-      <h3>Current Time: {time}</h3>
-      <h1>Counter: {counter}</h1>
-      <button onClick={() => setCounter(counter - 1)}>Decrement</button>
-      <button onClick={() => setCounter(counter + 1)}>Increment</button>
-    </>
+    <div className="counter-container">
+      <div className="time-display">
+        <h3>Current Time</h3>
+        <p>{time}</p>
+      </div>
+      <div className="counter-display">
+        <h1>{counter}</h1>
+      </div>
+      <div className="button-group">
+        <button onClick={() => setCounter(counter - 1)}>Decrement</button>
+        <button onClick={() => setCounter(counter + 1)}>Increment</button>
+      </div>
+    </div>
   )
 }
 
