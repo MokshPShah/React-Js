@@ -1,16 +1,65 @@
-# React + Vite
+# Project-1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A brief description of what this project does and who it's for.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Available Scripts](#available-scripts)
+  - [`npm run dev`](#npm-run-dev)
+  - `npm test`
+  - `npm run build`
+- Built With
+- License
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You need to have Node.js and npm installed on your machine.
+
+- Node.js (which comes with npm)
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/mokshpshah/Project-1.git
+    ```
+2.  Navigate to the project directory
+    ```sh
+    cd Project-1
+    ```
+3.  Install NPM packages
+    ```sh
+    npm install
+    ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode.<br />
+Open http://localhost:5173 to view it in the browser.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.
+
+## Built With
+
+*   React - The web framework used.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE.md` file for details.
