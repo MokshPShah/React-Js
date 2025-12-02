@@ -1,0 +1,263 @@
+body {
+  font-family: Plus Jakarta Sans;
+}
+.text-purple {
+  color: rgb(164, 51, 209);
+}
+.bg-purple {
+  background-color: rgb(164, 51, 209);
+}
+.bg-purple:hover {
+  background-color: rgb(164, 71, 209);
+}
+.bg-purple:focus,
+.bg-purple:active {
+  background-color: rgb(164, 71, 209);
+}
+.hero-bg {
+  height: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-color: #5c2cea;
+  background-image: linear-gradient(135deg, #5c2cea, #7042f5 70%);
+  padding: 80px 0;
+  overflow: hidden;
+  position: relative;
+}
+.discount-box {
+  display: inline-block;
+  border: 2px dashed #ffd700;
+  padding: 8px 22px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.indicator-container {
+  position: absolute;
+  left: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.indicator {
+  width: 48px;
+  height: 48px;
+  border: 2px solid #ffd700;
+  border-radius: 50%;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.85;
+  font-weight: bold;
+}
+.indicator.active {
+  background: #ffd700;
+  color: #000;
+}
+.indicator-line {
+  width: 2px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+}
+.decor-circle {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  opacity: 0.1;
+  background: repeating-linear-gradient(45deg,
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.35) 6px,
+      transparent 6px,
+      transparent 12px);
+}
+.circle1 {
+  bottom: 40px;
+  left: 60px;
+}
+.circle2 {
+  top: 80px;
+  right: -70px;
+}
+.py-80 {
+  padding: 80px 0;
+}
+.py-120 {
+  padding: 120px 0;
+}
+/* ourServices css */
+.icon-wrapper:hover .icon-flip {
+  transform: scaleX(-1);
+}
+/* trendingProducts css */
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+.hover-icons {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.product-card:hover .hover-icons {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.icon-box {
+  width: 36px;
+  height: 36px;
+  background: #6a1bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.icon-box:hover {
+  background: #4a0fcc;
+}
+/* DealOfTheDay css */
+.timer-box {
+  background: white;
+  color: black;
+  padding: 18px 25px;
+  border-radius: 12px;
+  min-width: 80px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.timer-box h4 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.timer-box p {
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  color: #6d6d6d;
+}
+/* testimonial css */
+.testimonial-box {
+  border-radius: 18px;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+.nav-arrow {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: .3s;
+  background: white;
+}
+.nav-arrow:hover {
+  background: #6a1bff;
+  color: white;
+  border-color: #6a1bff;
+}
+/* weeklyProducts css */
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+.hover-icons {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.product-card:hover .hover-icons {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.icon-box {
+  width: 36px;
+  height: 36px;
+  background: #6a1bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.icon-box:hover {
+  background: #4a0fcc;
+}
+/* insta css */
+.insta-btn {
+  background: #6a1bff;
+  border-radius: 8px;
+  border: none;
+}
+.insta-btn:hover {
+  background: #4814aa;
+  border-radius: 8px;
+  border: none;
+}
+/* Brand CSS */
+.brand-container {
+  background: #5b2df5;
+  padding: 30px 0;
+  width: 100%;
+}
+.brand-img {
+  width: 100%;
+  max-width: 150px;
+  opacity: 0.6;
+  filter: brightness(0) invert(1);
+  transition: all 0.3s;
+}
+.brand-img:hover {
+  opacity: 1;
+}
+/* Footer css */
+footer {
+  background: #fff;
+  margin-top: 30px;
+}
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-list li {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: #666;
+  cursor: pointer;
+  transition: .2s;
+}
+.footer-list li:hover {
+  color: #6a1bff;
+  padding-left: 3px;
+}
+.newsletter {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.footer-frm-btn {
+  background: #6a1bff;
+  border: none;
+  padding: 0px 35px;
+  border-radius: 0 10px 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.footer-frm-btn:hover {
+  background: #4814aa;
+}
