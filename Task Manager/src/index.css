@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.font-playwrite {
+    font-family: 'Playwrite ES';
+}
+.font-ubuntu {
+    font-family: 'Ubuntu';
+}
+.font-inter {
+    font-family: 'Inter';
+}
