@@ -1,5 +1,8 @@
 # React JS Practice Repository
 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 ## Introduction
 
 Welcome to the **React JS Practice Repository**! This repository serves as a comprehensive collection of various React.js projects and experiments. It is designed to demonstrate different concepts, patterns, and capabilities of the React library, ranging from basic component structures to more complex state management and UI implementations.
@@ -13,22 +16,27 @@ This repository is organized into individual folders, each containing a standalo
 ### 1. Counter Application
 *   **Location**: `/Counter`
 *   **Description**: A fundamental React application demonstrating state management using the `useState` hook. It features increment, decrement, and reset functionality, serving as a perfect starting point for understanding React's reactivity.
+*   **Features**: State initialization, Event binding, Conditional UI updates.
 
 ### 2. Customer Feedback
 *   **Location**: `/Customer-Feedback`
 *   **Description**: A feedback collection tool that demonstrates form handling, input validation, and managing user submissions within a React environment.
+*   **Features**: Controlled components, Input validation, Form submission handling.
 
 ### 3. Data Table
 *   **Location**: `/Data Table`
 *   **Description**: An implementation of a data grid or table component. This project explores rendering lists of data, and typically includes features such as sorting, filtering, and pagination.
+*   **Features**: Array mapping, Filtering logic, Sorting algorithms, Pagination controls.
 
 ### 4. Employee Panel
 *   **Location**: `/Employee-Panel`
 *   **Description**: An administrative dashboard or panel for managing employee data. This project covers more complex UI layouts, CRUD (Create, Read, Update, Delete) operations, and component composition.
+*   **Features**: CRUD operations, Component reusability, State lifting, Layout management.
 
 ### 5. Event Handler
 *   **Location**: `/Event-Handler`
 *   **Description**: A focused project demonstrating how to handle various DOM events in React. It covers synthetic events, event propagation, and passing handlers as props.
+*   **Features**: Synthetic events, Event bubbling/capturing, Handler props.
 
 #### More projects are being progressively integrated into the repository.
 
@@ -46,7 +54,7 @@ Ensure you have the following installed:
 
 1.  **Clone the Repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/MokshPShah/React-Js
     cd "React Js"
     ```
 
