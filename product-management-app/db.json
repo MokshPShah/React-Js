@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": "c03d",
+      "name": "Moksh",
+      "email": "moksh.shah.mps@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "897d",
+      "name": "Sahil",
+      "email": "sahil@gmail.com",
+      "password": "1425"
+    }
+  ],
+  "products": [
+    {
+      "id": "2861",
+      "title": "Laptop ",
+      "price": "20000",
+      "category": "Electronics",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSTGvy6SAWVDFlngrPu-3e6Af5xvbXDo4e_d8VIn1zltkq4uh8sfRhGGaT6bat4feaO8-VSDfPOL8sUb4SHeipqzXPflpAM",
+      "userId": "c03d"
+    },
+    {
+      "id": "699f",
+      "title": "Laptop",
+      "price": "50000",
+      "category": "Electronics",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRHdjyV590EhA0oAbkm9gkzflt6myKVD-2e7IyxcMK2zEbwXj8Y5n7gSczCXv0BZABS32gd7Npcq_GKyY6klr9ZDOThkn_iXc4eKnMD8aI06axzNdkAV2V0cw",
+      "userId": "c03d"
+    },
+    {
+      "id": "079d",
+      "title": "Heart Shape Resin Showpiece",
+      "price": "1969",
+      "category": "Home Decor",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRSeqJnodj8CaggmYnz0tQcLOO2fysJ7tRireuz__rAOp4YD87VP19u_2H0e7I_qSLFptEK_kVrsfh5AfW42cqSNcM6rDWGJpKXlbpx3F8L",
+      "userId": "c03d"
+    },
+    {
+      "id": "661a",
+      "title": "Westside Westside Home Bronze Acorn Decorative Object",
+      "price": "799",
+      "category": "Home Decor",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSSdrJ6f0XmDU844TB0hornV39Qw0HPgRoj7IdCm-pUr2KYpCcP9eY86EmmEL_OOjg_fAljMTH5-ojaexG0Vc93sOGUAjtp9kVzON2uKEK13TqLLKjorVee7js",
+      "userId": "c03d"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
